@@ -2,13 +2,16 @@
 
 ## 何が入っているのか？
 - csv for alg:学習・テストデータ
- - feature_learn:学習データ（特徴量）
- - preference_learn_notitle:学習データ（嗜好）
- - feature_test: テストデータ（特徴量）
-- cast.csv:過去のアニメに関する制作会社，監督，シリーズ構成の情報
-- preference.tsv:過去のアニメに関する嗜好の情報
+   - feature_learn:学習データ（特徴量）
+   - preference_learn_notitle:学習データ（嗜好）
+   - feature_test: テストデータ（特徴量）
+- feature.tsv:過去視聴したアニメに関する制作会社，監督，シリーズ構成の情報
+- preference.tsv:過去視聴したアニメの嗜好に関する情報
 - feature_autumn2017.csv: 2017年秋アニメに関する制作会社，監督，シリーズ構成の情報
 - データ成形のプロセス
+
+## 嗜好データに関して
+嗜好は1~5の5段階で評価．
 
 ## ToDo
 - 早く.csvファイルを作る
